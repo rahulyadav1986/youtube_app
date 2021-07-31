@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Rahul</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a992d6b247.js" crossorigin="anonymous"></script>
+</head>
+<body id="db_section">
+
+    <div class="container">
+        <div class="main_app">
+            <div class="head d-flex align-center justify-between">
+                <div class="logo d-flex align-center">
+                    <img src="images/codex_rahul.png" alt="">
+                    <div>
+                        <h1>CODEX RAHUL</h1>
+                        <div class="subscribe_button d-flex flex-column">
+                            <a  href="http://www.youtube.com/channel/UCwmScL-zapNerUJTu3Jy3bQ?sub_confirmation=1" target="_blank" class="d-flex align-center">
+                                <i class="fab fa-youtube"></i>
+                                SUBSCRIBE
+                            </a>
+                            <b id="subCount"></b>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="buttons d-flex align-center">
+                    <div class="mode d-flex align-center justify-center" id="mode_change" onclick="button_click()">
+                        <span class="icon fas fa-sun"></span>
+                        <span class="icon fas fa-moon"></span>
+                    </div>
+                    <div class="mode d-flex align-center justify-center" id="mode_change_view" onclick="button_click_view()">
+                        <span class="icon fas fa-th"></span>
+                        <span class="icon fas fa-bars"></span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="video_section" id="video"></div>
+            <ul class="video_list_section d-flex justify-between" id="view"></ul>
+            
+        </div>
+        
+        
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/youtube_api.js"></script>
+    <script src="js/app.js"></script>
+
+   
+    
+</body>
+</html>
